@@ -14,7 +14,6 @@ function App() {
         <Link to="/products">Dashboard </Link> | 
         <Link to="/products/new">Create a new Product </Link>
       </p>
-
       <Routes>
         <Route path="/products" element={<DashboardPage />} />
         <Route path="/products/new" element={<CreatePage />} />
